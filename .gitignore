@@ -1,0 +1,11 @@
+@"
+.vs/
+**/.vs/
+bin/
+obj/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.csproj.user
+"@ | Set-Content -Path .gitignore -Encoding UTF8
